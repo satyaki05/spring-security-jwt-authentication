@@ -128,7 +128,7 @@ Token-based authorization
 Environment-specific configuration handling
 
 Satyaki De
-Backend Developer | Spring Boot | Security Enthusiast
+Backend Developer | Spring Boot
 
 License
 
