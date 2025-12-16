@@ -12,7 +12,7 @@ import java.util.function.Function;
 
 @Component
 public class JWTUtil {
-    private final SecretKey SECRET_KEY = Keys.secretKeyFor(SignatureAlgorithm.HS256);
+    private final SecretKey SECRET_KEY = //generate token
     public String generateToken(String username){
         return Jwts.builder()
                 .setSubject(username)
