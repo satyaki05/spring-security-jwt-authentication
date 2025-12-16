@@ -48,38 +48,6 @@ MariaDB
 
 Maven
 
-Project Architecture
-com.authentication_and_authorization
-│
-├── Application.java
-│
-├── Configuration
-│   └── WebSecurityConfig.java
-│
-├── Controller
-│   ├── AuthController.java
-│   └── TestController.java
-│
-├── DTO
-│   ├── LoginRequest.java
-│   └── SignupRequest.java
-│
-├── Entity
-│   └── User.java
-│
-├── Filter
-│   └── JWTFilter.java
-│
-├── Repository
-│   └── UserRepository.java
-│
-├── Service
-│   ├── AuthService.java
-│   ├── UserService.java
-│   └── CustomUserDetailsService.java
-│
-└── Util
-    └── JWTUtil.java
 
 Authentication Workflow
 
